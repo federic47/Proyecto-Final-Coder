@@ -1,0 +1,266 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,176,1) 18%, rgba(0,212,255,1) 100%);
+}
+
+
+/*=====HEADER===========*/
+.navegacion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    background: rgb(41,48,51);
+    background: linear-gradient(90deg, rgba(41,48,51,0.9500175070028011) 0%, rgba(25,24,25,1) 0%, rgba(41,41,48,1) 0%);
+}
+/*=====FORMULARIO===========*/
+.formulario{
+    padding-top: 5px;
+}
+form{
+    padding-top: 20px;
+    
+}
+
+.container{
+    max-width: 100%;
+}
+
+.row-simulador{
+    max-width: 100%;
+    display: flex;
+}
+
+.formulario-carga{
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    height: 700px;
+    width: 780px;
+    background: rgb(35,138,180);
+    background: linear-gradient(90deg, rgba(35,138,180,0.9500175070028011) 0%, rgba(20,19,22,1) 0%, rgba(41,43,156,1) 100%);
+}
+
+#exampleFormControlInput1{
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#exampleFormControlSelect1{
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.botones{
+   padding-top: 10px;
+    
+}
+
+.formulario-repuesta{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    height: 700px;
+    width: 700px;
+    background: rgb(108,177,195);
+    background: linear-gradient(90deg, rgba(108,177,195,0.9977240896358543) 0%, rgba(118,210,200,1) 100%, rgba(116,205,205,1) 100%);
+}
+
+.form-control {
+    width: 500px;
+    text-align: center;
+    margin-left: 120px;
+
+}
+.correcto{
+    border: 2px solid green;
+}
+
+.errorDatos{
+    border: 2px solid red;
+}
+
+
+.error{
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(226, 26, 26);
+    color: white;
+    margin-left: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.errorEmail{
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(36, 133, 138);
+    color: white;
+    margin-left: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.errorTelefono{
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 3px;
+  text-align: center;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgb(170, 135, 32);
+  color: white;
+  margin-left: 180px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.errorMonto{
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 3px;
+  text-align: center;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgb(200, 20, 170);
+  color: white;
+  margin-left: 180px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.errorCiudad{
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 3px;
+  text-align: center;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgb(207, 221, 16);
+  color: white;
+  margin-left: 180px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.enviado{
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 3px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(53, 138, 36);
+    color: white;
+    margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/*================SECCION SPINNERS========================****/
+#spinner {
+    margin-left: 80px;
+    display: none;
+    justify-content: center;
+    padding: 3rem 0;
+    color: rgb(45, 183, 7);
+}
+
+.sk-chase {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  .sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: #0288d1;
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+  }
+  
+  .sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+  .sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+  .sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+  .sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+  .sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+  .sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+  .sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @keyframes sk-chase-dot-before {
+    50% {
+      transform: scale(0.4); 
+    } 100%, 0% {
+      transform: scale(1.0); 
+    } 
+  }
+
+
+  .card{
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 590px;
+    width: 20rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(183,197,200,1) 100%, rgba(186,191,198,1) 100%);
+    border: 2px solid rgb(224, 221, 221);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .card-img-top{
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    margin-left: 85px;
+  }
+
+  .btn-danger{
+    margin-top: 95px;
+  }
+
+  
