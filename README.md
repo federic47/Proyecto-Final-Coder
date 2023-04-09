@@ -16,3 +16,8 @@
 # 7- Luego aparecera la tarjera donde le va a indicar el monto que solicito y las cuotas con sus respectivos valores y cargos.
 # 8- El Usuario podra elegir solicitar dicho prestamo o pasarlo a valor dolar oficial. En ambos casos cuando soliciten dicho prestamo se habilitara una tarjeta que indicara el monto a depositar ya sea en dolares o pesos y y un cbu valido de 21 digitos. Si el usuario no ingresa un cbu valido mediante un sweet alert le indicara un mensaje de error indicandole el mismo. De lo contrario le enviara un mensaje de deposito correcto y la tarjeta desaparecera.
 # 9- El boton reset pondra a los campos en sus valores originales pero cargara la informacion del storage que se realizo en ultima instancia.
+
+
+# Las api consultadas son:
+# Para consultar cotizacion del dolar : https://bluelytics.com.ar/#!/api
+# Para consultar la temperatura de la ciudad: https://openweathermap.org/
