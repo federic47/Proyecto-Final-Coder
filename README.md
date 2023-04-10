@@ -1,6 +1,6 @@
 # Proyecto-Final-Koss Federico
 
-# Autor: Koss Federico Damina Comision 39450
+# Autor: Koss Federico Damian Comision 39450
 
 # Fundamentacion del proyecto ---- SIMULADOR DE PRESTAMO ONLINE ----- 
 
